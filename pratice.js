@@ -8,3 +8,12 @@ function customGetDate2(d = null) {
         day: d.getDate(),
     }
 }
+
+// 5초마다 실행
+function aj() {
+    console.log('date: ', new Date());
+}
+
+setInterval(()=>{
+    aj();
+}, 5000);

@@ -55,3 +55,6 @@ data.forEach((schedule) => {
         console.log('이미 예약 됨 : ', schedule.id);
     }
 })
+
+// 전화번호 - 구분
+// 정규 표현식을 쓰거나 배열을 사용해서 하나하나 비교 해보기
